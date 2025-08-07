@@ -1,3 +1,4 @@
+
 ---
 layout: default
 title: Blog
@@ -5,11 +6,11 @@ title: Blog
 <h1>Blog</h1>
 <ul class="post-list">
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+    <li class="post-row">
+      <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: "%b %-d, %Y" }}</time>
       {% if post.excerpt %}
-        <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}</p>
+        <p class="post-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}</p>
       {% endif %}
     </li>
   {% endfor %}

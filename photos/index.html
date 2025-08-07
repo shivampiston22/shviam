@@ -1,13 +1,14 @@
+
 ---
 layout: default
 title: Photos
 ---
 <h1>Photos</h1>
 <p class="muted">Upload images to <code>assets/photos/</code>; they appear here automatically.</p>
-<div class="gallery">
+<div class="gallery-grid">
   {% assign photos = site.static_files | where_exp: 'file', 'file.path contains "/assets/photos/"' %}
   {% for img in photos %}
-    <a href="{{ img.path | relative_url }}" class="gallery-item">
+    <a href="{{ img.path | relative_url }}" class="gallery-item" target="_blank" rel="noopener">
       <img src="{{ img.path | relative_url }}" alt="" loading="lazy">
     </a>
   {% endfor %}

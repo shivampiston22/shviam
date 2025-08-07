@@ -1,7 +1,8 @@
-title: "Your Name"
+
+title: "Shivam Shah"
 tagline: "Founder, builder, writer"
 url: "https://shivampiston22.github.io"
-baseurl: "/shviam"
+baseurl: "/shviam" # change to "" if you rename the repo to shivampiston22.github.io
 permalink: /blog/:title/
 timezone: America/Chicago
 markdown: kramdown

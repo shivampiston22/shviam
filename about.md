@@ -1,9 +1,11 @@
+
 ---
 layout: default
 title: About
 ---
 
-I’m **Your Name**. This site is where I write and post photos.
+I'm **Shivam Shah**. I build products and write about what I'm learning.
 
-- Work: add a line about what you do.
-- Contact: email@domain.com
+- Founder @ Piston (fintech + logistics)
+- Based in the US
+- Contact: add your best email

@@ -1,8 +1,10 @@
-# Personal Site (Jekyll + GitHub Pages)
 
-1. Create repo named `YOUR-USERNAME.github.io` (public).
-2. Upload the **contents** of this folder to the repo root and commit.
-3. Settings → Pages → Source: Deploy from a branch → Branch: `main` (root).
-4. Visit `https://YOUR-USERNAME.github.io` in 1–3 minutes.
+# Shivam Shah — Personal Site (Pro Theme)
 
-Write posts in `_posts/` as Markdown. Upload gallery images to `assets/photos/`.
+- Repo is currently a project site at `/shviam`.
+- If you rename the repo to `shivampiston22.github.io`, set `baseurl: ""` in `_config.yml`.
+
+### Daily use
+- Write posts in `_posts/` as Markdown.
+- Upload gallery images to `assets/photos/`.
+- Replace `assets/images/avatar.svg` with your photo if you like (keep the same filename).
