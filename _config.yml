@@ -1,7 +1,7 @@
 title: "Your Name"
 tagline: "Founder, builder, writer"
-url: "https://YOUR-USERNAME.github.io"
-baseurl: "" # keep empty for user site repos like YOUR-USERNAME.github.io
+url: "https://shivampiston22.github.io"
+baseurl: "/shviam"
 permalink: /blog/:title/
 timezone: America/Chicago
 markdown: kramdown
