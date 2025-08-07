@@ -1,0 +1,11 @@
+title: "Your Name"
+tagline: "Founder, builder, writer"
+url: "https://YOUR-USERNAME.github.io"
+baseurl: "" # keep empty for user site repos like YOUR-USERNAME.github.io
+permalink: /blog/:title/
+timezone: America/Chicago
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
+exclude: ["README.md"]

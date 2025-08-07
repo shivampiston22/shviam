@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<section class="hero">
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.tagline }}</p>
+</section>
+
+<section>
+  <h2>Latest writing</h2>
+  <ul class="post-list">
+    {% assign recent = site.posts | slice: 0, 6 %}
+    {% for post in recent %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+        {% if post.excerpt %}
+          <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 140 }}</p>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+  <p style="margin-top:16px"><a href="{{ '/blog/' | relative_url }}">View all posts →</a></p>
+</section>
+
+<section style="margin-top:32px">
+  <h2>Photos</h2>
+  <p><a href="{{ '/photos/' | relative_url }}">Browse the gallery →</a></p>
+</section>
